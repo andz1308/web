@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Cơ Bản</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Chào Mừng Đến Với Trang Web Của Tôi</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Trang Chủ</a></li>
+            <li><a href="#">Giới Thiệu</a></li>
+            <li><a href="#">Dịch Vụ</a></li>
+            <li><a href="#">Liên Hệ</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Giới Thiệu</h2>
+            <p>Đây là phần giới thiệu của trang web.</p>
+        </section>
+        <section>
+            <h2>Dịch Vụ</h2>
+            <p>Đây là phần dịch vụ của trang web.</p>
+        </section>
+        <section>
+            <h2>Tính Toán Phương Trình Bậc 2</h2>
+            <form id="quadratic-form">
+                <label for="a">Hệ số a:</label>
+                <input type="number" id="a" name="a" step="any" required>
+                <br>
+                <label for="b">Hệ số b:</label>
+                <input type="number" id="b" name="b" step="any" required>
+                <br>
+                <label for="c">Hệ số c:</label>
+                <input type="number" id="c" name="c" step="any" required>
+                <br>
+                <button type="button" onclick="calculate()">Tính Toán</button>
+            </form>
+            <div id="result"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Trang Web Của Tôi. Bảo Lưu quyền.</p>
+    </footer>
+</body>
+</html>
